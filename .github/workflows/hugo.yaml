@@ -2,7 +2,9 @@
 name: Deploy Hugo site to Pages
 
 # Runs on repository dispatch triggered by Vault:
-on: workflow_dispatch
+on: 
+  repository_dispatch:
+    types: update
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
