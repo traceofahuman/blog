@@ -3,6 +3,7 @@ name: Deploy Hugo site to Pages
 
 # Runs on repository dispatch triggered by Vault:
 on: 
+  push:
   repository_dispatch:
     types: update
 
