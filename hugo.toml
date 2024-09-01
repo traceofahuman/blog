@@ -37,6 +37,11 @@ defaultContentLanguage = "en-gb"
     name = 'About'
     url = '/about/'
     weight = 30
+  [[Languages.en-gb.menu.main]]
+    pageRef="contact"
+    name = 'Contact'
+    url = '/contact/'
+    weight = 40
 
 [Languages.en-gb.params]
   sitename = "Traces of a Human"
@@ -109,4 +114,4 @@ enableEmoji = true
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/traceofahuman"
